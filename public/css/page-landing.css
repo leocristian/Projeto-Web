@@ -9,7 +9,7 @@
 }
 
 #container {
-    background-color: white;
+  background-color: white;
   margin: 6.4rem auto;
   position: static;
   width: 112rem;
@@ -21,16 +21,16 @@
 
 }
 
-main h1 {
+main .animate-h1-up {
   animation-delay: 200ms;
-  padding: 4rem;
+  padding: 8rem;
   height: 8vh;
   font-size: clamp(2.6rem, 4.7vw, 4rem);
 }
 
-main p {
+main .animate-h2 {
   animation-delay: 340ms;
-  padding: 4rem;
+  padding: 6rem;
   font-size: clamp(1rem, 4.7vw, 1.8rem);
 }
 

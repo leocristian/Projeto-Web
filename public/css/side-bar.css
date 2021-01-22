@@ -39,12 +39,18 @@ aside {
   padding-bottom: 8rem;
   padding-top: 6rem;
 }
+.portifolio:hover{
+  color: #f2f600;
+}
 
 .contato {
   background: url(../images/icones/phonefone.png) no-repeat center;
   width: 100%;
   padding: 2rem;
   padding-bottom: 8rem;
+}
+.contato:hover{
+  color: #f2f600;
 }
 
 .localizacao {
@@ -54,13 +60,18 @@ aside {
   padding-bottom: 8rem;
   list-style-type: none;
 }
-
+.localizacao:hover{
+  color: #f2f600;
+}
 .sobre {
   background: url(../images/icones/help_outline.png) no-repeat center;
   width: 100%;
   padding: 2rem;
   padding-bottom: 8rem;
   list-style-type: none;
+}
+.sobre:hover{
+  color: #f2f600;
 }
 
 .my-ul-element {
