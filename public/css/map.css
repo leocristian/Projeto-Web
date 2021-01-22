@@ -1,5 +1,5 @@
 /* Set the size of the div element that contains the map */
-#map {
+iframe {
     height: 450px;
     /* The height is 400 pixels */
     width: 90%;
