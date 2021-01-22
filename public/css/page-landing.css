@@ -1,0 +1,40 @@
+#page-landing {
+  background: url(../images/Fundo-Home.jpg) no-repeat center fixed;
+  background-size: cover;
+
+  text-align: center;
+  min-height: 100vh;
+
+  display: flex;
+}
+
+#container {
+    background-color: white;
+  margin: 6.4rem auto;
+  position: static;
+  width: 112rem;
+  height: 150rem;
+  left: 36rem;
+  top: 77px;
+
+  border-radius: 3rem;
+
+}
+
+main h1 {
+  animation-delay: 200ms;
+  padding: 4rem;
+  height: 8vh;
+  font-size: clamp(2.6rem, 4.7vw, 4rem);
+}
+
+main p {
+  animation-delay: 340ms;
+  padding: 4rem;
+  font-size: clamp(1rem, 4.7vw, 1.8rem);
+}
+
+/*Desktop Version*/
+
+@media (min-width: 760px) {
+}

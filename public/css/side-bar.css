@@ -1,0 +1,76 @@
+aside {
+  position: fixed;
+  width: clamp(8rem, 12vw, 10rem);
+  height: 100%;
+  padding: 2rem;
+  left: 0px;
+  top: 0px;
+
+  background: linear-gradient(179.06deg, #4a4a4a 25.5%, #8e8e8e 100%);
+
+  display: flex;
+  flex-direction: column;
+}
+
+.logo {
+  position: relative;
+  width: 280%;
+  margin-top: -5rem;
+  margin-left: -3.8rem;
+}
+
+.background-sidebar {
+  position: fixed;
+  width: clamp(8.5rem, 12.5vw, 10.5rem);
+  /*width: 104px;*/
+  height: 100%;
+  left: 0px;
+  top: 0px;
+
+  background: linear-gradient(179.06deg, #f2f600 0%, rgba(242, 246, 0, 0) 100%);
+}
+
+/*menu*/
+
+.portifolio {
+  background: url(../images/icones/Vector.png) no-repeat center;
+  width: 100%;
+  padding: 2rem;
+  padding-bottom: 8rem;
+  padding-top: 6rem;
+}
+
+.contato {
+  background: url(../images/icones/phonefone.png) no-repeat center;
+  width: 100%;
+  padding: 2rem;
+  padding-bottom: 8rem;
+}
+
+.localizacao {
+  background: url(../images/icones/place.png) no-repeat center;
+  width: 100%;
+  padding: 2rem;
+  padding-bottom: 8rem;
+  list-style-type: none;
+}
+
+.sobre {
+  background: url(../images/icones/help_outline.png) no-repeat center;
+  width: 100%;
+  padding: 2rem;
+  padding-bottom: 8rem;
+  list-style-type: none;
+}
+
+.my-ul-element {
+  list-style-type: none;
+}
+
+@media (min-width: 760px) {
+  .logo {
+    width: 280%;
+    margin-top: -5rem;
+    margin-left: -5.5rem;
+  }
+}
