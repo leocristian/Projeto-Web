@@ -22,15 +22,15 @@
 
 main .titulo {
   animation-delay: 200ms;
-  padding: 8rem;
+  padding: 4rem;
   height: 8vh;
-  font-size: clamp(2.6rem, 4.7vw, 6rem);
+  font-size: clamp(2.6rem, 4.7vw, 4rem);
 }
 
 main .text {
   animation-delay: 340ms;
-  padding: 6rem;
-  font-size: clamp(2.5rem, 4.7vw, 3.8rem);
+  padding: 2rem;
+  font-size: clamp(2.5rem, 4.7vw, 2rem);
 }
 
 /*Desktop Version*/
@@ -38,7 +38,7 @@ main .text {
 @media (min-width: 1024px) {
   .container{
     background-color: white;
-    margin: 6.4rem 16rem auto 26rem;
+    margin: 6.4rem 16rem 5rem 26rem;
     position: static;
     width: 120rem;
     padding: 2rem;
