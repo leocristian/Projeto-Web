@@ -18,6 +18,12 @@
       href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@400;800&display=swap"
       rel="stylesheet"
     />
+
+    <script defer
+      src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCS_uewr3iMVKpLzv6LMpGhe4mwQy16-w8&callback=initMap&libraries=&v=weekly">
+    </script>
+    <link rel="stylesheet" type="text/css" href="./public/css/map.css" />
+    <script src="./map.js"></script>
   </head>
   <body>
     <div class="background-sidebar animate-down"></div>
@@ -53,11 +59,9 @@
       <div id="container">
         <main>
           <h1 class="animate-h1-up">Localização.</h1>
-          <p class="animate-up">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum a ad
-            adipisci, quibusdam quasi, commodi quo nulla blanditiis qui, libero
-            neque architecto eaque? Saepe et dicta tenetur ipsam voluptate modi?
-          </p>
+          <!--The div element for the map -->
+            <div id="map"></div>
+            <button>Ver rotas no google maps</button>
         </main>
       </div>
     </div>

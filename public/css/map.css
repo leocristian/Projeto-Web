@@ -1,0 +1,22 @@
+/* Set the size of the div element that contains the map */
+#map {
+    height: 450px;
+    /* The height is 400 pixels */
+    width: 90%;
+    /* The width is the width of the web page */
+    margin: auto;
+    border-radius: 32px 32px 0 0;
+  }
+
+  button{
+    width: 90%;
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 0 0 32px 32px ;
+    cursor: pointer;
+    font-size: 25px;
+    margin-top: 0px;
+  }

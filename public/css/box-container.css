@@ -46,3 +46,114 @@
     justify-content: space-evenly;
     flex-wrap: wrap;
 }
+
+.box-contato{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    
+}
+.box-contato .box{
+    /* box-shadow: 0px 0px 15px;
+    width: 200px;
+    height: 300px;
+    border-radius: 10px;
+    background-color: white;
+    */
+    
+    background: linear-gradient(179.06deg, #dcdcdc 0%, rgba(242, 246, 0, 0) 100%);
+    transition: .3s all ease-in-ou;
+    
+    position: relative;
+    margin: 20px;
+    width: 350px;
+    height: 200px;
+    top: 10px;
+
+    /* background: #DCDCDC; */
+    border-radius: 32px;
+}
+
+.box-contato .box  {
+    display: inline;
+    align-items: center;
+}
+
+.box-contato .box .box-title{
+    text-align: left;
+    margin-left: 90px;
+    margin-top: 30px;
+
+    font-family: Nunito Sans;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 24px;
+    line-height: 20px;
+}
+
+.box-contato .box .boxContent .tel{
+    padding: 6px;
+    margin-top: 20px;
+    font-weight: bold;
+}
+
+.box-contato .box .boxContent .fab{
+    font-size: 40px;
+    margin-left: -6rem;
+    margin-top: -2rem;
+}
+.box-contato .box .boxContent .fab.ico-space{
+    padding-right: 2rem;
+}
+.box-contato .box .boxContent .fas{
+    font-size: 40px;
+    margin-left: -8rem;
+    margin-top: -2rem;
+}
+.box-contato .box .boxContent .fas.ico-space{
+    padding-right: 2rem;
+}
+
+input[type=text]{
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  
+input[type=submit] {
+    width: 100%;
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: #45a049;
+}
+
+.box-form {
+    border-radius: 32px;
+    background-color: #DCDCDC;
+    padding: 20px;
+    margin-top: 30px;
+    background: linear-gradient(179.06deg, #dcdcdc 0%, rgba(242, 246, 0, 0) 100%);
+}
+.box-form textarea{
+    width: 100%;
+    height: 100px;
+    margin-top: 10px;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    background-color: #f8f8f8;
+    resize: none;
+}
