@@ -35,3 +35,21 @@
   animation-duration: 1s;
   animation-fill-mode: backwards;
 }
+
+@keyframes right {
+  from {
+    opacity: 0;
+    transform: translateX(-1000px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+.animate-right {
+  animation-name: right;
+  animation-duration: 1s;
+  animation-fill-mode: backwards;
+}

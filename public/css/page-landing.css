@@ -6,35 +6,44 @@
   min-height: 100vh;
 
   display: flex;
-}
-
-#container {
-  background-color: white;
-  margin: 6.4rem auto;
-  position: static;
-  width: 112rem;
-  height: 150rem;
-  left: 36rem;
-  top: 77px;
-
-  border-radius: 3rem;
 
 }
 
-main .animate-h1-up {
+.container{
+    background-color: white;
+    margin: 12rem 6rem auto 8rem;
+    position: absolute;
+    width: clamp(60rem,vw,120rem);
+    padding: 2rem;
+    flex: 1;
+    border-radius: 3rem;
+
+}
+
+main .titulo {
   animation-delay: 200ms;
   padding: 8rem;
   height: 8vh;
-  font-size: clamp(2.6rem, 4.7vw, 4rem);
+  font-size: clamp(2.6rem, 4.7vw, 6rem);
 }
 
-main .animate-h2 {
+main .text {
   animation-delay: 340ms;
   padding: 6rem;
-  font-size: clamp(1rem, 4.7vw, 1.8rem);
+  font-size: clamp(2.5rem, 4.7vw, 3.8rem);
 }
 
 /*Desktop Version*/
 
-@media (min-width: 760px) {
+@media (min-width: 1024px) {
+  .container{
+    background-color: white;
+    margin: 6.4rem 16rem auto 26rem;
+    position: static;
+    width: 120rem;
+    padding: 2rem;
+    flex: 1;
+    border-radius: 3rem;
+  
+  }
 }
