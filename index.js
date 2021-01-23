@@ -7,22 +7,26 @@ function setCookie(valor){
 	console.log("Cookie criado com sucesso!");
 }
 
+function getCookie() {
+    var user = document.cookie
+    console.log(user)
+}
+
 function validaForm(formObj){
 
     if (formObj.nome.value == "" || formObj.email.value == "" || formObj.comment.value == "") {
         alert("Preencha todos os campos!")
         return false
-    }else{
-        setCookie(formObj.nome.value)
-    }
-
-    if(formObj.email.value.indexOf("@") == -1 || formObj.email.value.indexOf(".") == -1 ||
+    }if(formObj.email.value.indexOf("@") == -1 || formObj.email.value.indexOf(".") == -1 ||
        formObj.email.value == "" || formObj.email.value == null) {
 
         alert("Informe um e-mail válido.");
         formObj.email.focus();
         return false;
 
+    }else{
+        setCookie(formObj.nome.value)
+        console.log(formObj.nome.value)
     }
 }
 
