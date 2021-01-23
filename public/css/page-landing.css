@@ -1,5 +1,6 @@
 #page-landing {
-  background: url(../images/Fundo-Home.jpg) no-repeat center fixed;
+  background: url(../images/Fundo-Home.jpg) no-repeat center;
+  background-attachment: fixed;
   background-size: cover;
 
   text-align: center;
@@ -30,6 +31,13 @@ main .text {
   padding: 2rem;
   margin-top: 2rem;
   font-size: clamp(2rem, 4.7vw, 2rem);
+}
+
+main .rodape{
+  animation-delay: 340ms;
+  padding: 2rem;
+  margin-top: 10rem;
+  font-size: clamp(2rem, 4.7vw, 3rem);
 }
 
 /*Desktop Version*/
