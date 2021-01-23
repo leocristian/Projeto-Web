@@ -7,12 +7,62 @@ aside {
 
   text-align: center;
   
-
+  display: flex;
+  
   padding: 2rem;
-
   position: fixed;
   top: 0;
+  z-index: 999;
 }
+
+.navbar{
+  max-width: 100%;
+  margin: 0 auto;
+}
+
+.logo{
+  display: block;
+
+  width: clamp(18rem,6vw,18rem);
+  margin: auto;
+  margin-top: -7.5rem;
+  padding: 2rem;
+  z-index: 999;
+
+}
+.hamburguer{
+  align-items: center;
+  width: 50px;
+  height: 50px;
+  background-color: rgba(129, 129, 129, 0.5);
+  color: white;
+  border-radius: 10px;
+  padding-top: 1.2rem;
+
+  z-index: 999;
+
+  transition: .5s ease;
+}
+.hamburguer:hover{
+  background-color: rgba(129, 129, 129, 1) ;
+}
+/*
+.menu{
+  position: fixed;
+  top: 0;
+  left: 0;
+
+  height: 100vh;
+  margin: 0;
+  background-color: #222;
+
+  width: 100%;
+  max-width: 250px;
+
+  padding: 100px 20px;
+
+  flex-direction: column;
+}*/
 
 .background-sidebar {
   position: fixed;
@@ -24,61 +74,8 @@ aside {
 
   background: linear-gradient(135.06deg, #f2f600 0%, rgba(242, 246, 0, 0) 100%);
 }
+/*----------------*/
 
-.menu{
-  max-width: 1200px;
-  border: 1px solid f2f600;
-  margin: 0 auto;
-
-}
-
-.logo{
-  width: 50%;
-  height: 50%;
-
-  background-color: white;
-  border-radius: 10px;
-
-  text-align: center;
-
- 
-}
-.logo a {
-  color: #fff;
-  text-decoration: none;
-}
-
-.hamburguer{
-  width: 30px;
-  height: 30px;
-
-  color: white;
-  background-color: transparent;
-
-  border-radius: 5px;
-  border: 0;
-
-  position: relative;
-  cursor: pointer;
-
-  display: none;
-
-}
-
-.hamburguer:after{
-  content: "";
-
-  position: absolute;
-  top: 35%;
-  left: 15%;
-
-  width: 70%;
-  height: 5%;
-
-
-  background-color: white;
-
-}
 
 .menu-element {
   list-style-type: none;
@@ -122,16 +119,11 @@ aside {
   }
 
   .logo{
-    width: 50%;
-    height: 50%;
-  
-    background-color: white;
-    border-radius: 10px;
-  
-    text-align: center;
-    
     display: none;
-   
+  }
+
+  .hamburguer{
+    display: none;
   }
 
   .mini-logo {
@@ -150,19 +142,14 @@ aside {
     padding-bottom: 8rem;
     padding-top: 6rem;
   }
-  /*.portifolio:hover{
-  color: #f2f600;
-}*/
 
   .contato {
     background: url(../images/icones/phonefone.png) no-repeat center;
     width: 100%;
     padding: 2rem;
     padding-bottom: 8rem;
+    padding-top: 6rem;
   }
-  /*.contato:hover{
-  color: #f2f600;
-}*/
 
   .localizacao {
     background: url(../images/icones/place.png) no-repeat center;
@@ -170,27 +157,54 @@ aside {
     padding: 2rem;
     padding-bottom: 8rem;
     list-style-type: none;
+    padding-top: 6rem;
   }
-  /*.localizacao:hover{
-  color: #f2f600;
-}*/
+
   .sobre {
     background: url(../images/icones/help_outline.png) no-repeat center;
     width: 100%;
     padding: 2rem;
     padding-bottom: 8rem;
     list-style-type: none;
+    padding-top: 6rem;
   }
-  /*.sobre:hover{
-  color: #f2f600;
-}*/
 
   .menu-element {
     list-style-type: none;
+
   }
 
 /*
   .with-sidebar {
     padding-left: 96px;
+  }*/
+
+  /*POP-UPS*/
+  [data-tooltip] {
+    position: relative;
+    font-size: 26px;
+    font-weight: bold;
   }
-}*/
+  
+  [data-tooltip]:after {
+    display: none;
+    position: absolute;
+    top: 55px;
+    padding: 5px;
+    border-radius: 4px;
+    left: calc(100% + 60px);
+    content: attr(data-tooltip);
+    white-space: nowrap;
+    background-color: #4a4a4a;
+    color: White;
+
+  }
+  
+  [data-tooltip]:hover:after {
+    display: block;
+    animation-name: show;
+    animation-duration: 1s;
+    animation-fill-mode: backwards;
+
+  }
+}
