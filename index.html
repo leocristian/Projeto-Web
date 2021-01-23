@@ -20,8 +20,10 @@
       rel="stylesheet"
     />
 
-    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
-      rel="stylesheet">
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
 
     <script
       src="https://code.jquery.com/jquery-3.5.1.min.js"
@@ -35,42 +37,62 @@
     <div id="page-landing">
       <div class="background-sidebar animate-down animate-right"></div>
       <aside>
-        <header>
-          <img
-            class="mini-logo"
-            src="./public/images/PIXELS SWORD-minilogo.svg"
-            alt="Logo Pixels"
-          />
-        </header>
-        <nav class="menu">
-          <div class="logo"><a href="#">LOGO</a></div>
-          <div class="hamburguer"><span class="material-icons">
-            menu
-            </span></div>
-          <ul>
+        <div class="navbar">
+          
+          <div class="hamburguer"><span class="material-icons">menu</span></div>
+          <a href="./index.html">
+            <img
+              class="logo"
+              src="./public/images/PIXELS SWORD-logo.png"
+              alt="Logo Pixels"
+            /></a>
+            <a href="./index.html">
+            <img
+              class="mini-logo"
+              src="./public/images/PIXELS SWORD-minilogo.svg"
+              alt="Mini Logo Pixels"
+            /></a>
+          <ul class="menu">
             <li class="menu-element">
-              <a href="./portifolio.html"><div class="portifolio"></div></a>
+
+                <span data-tooltip="Portifólio">
+                <a href="./portifolio.html"><div class="portifolio"></div></a>
+                </span>
+              
             </li>
             <li class="menu-element">
+
+              <span data-tooltip="Contato">
               <a href="./contatos.html"><div class="contato"></div></a>
+              </span>
             </li>
             <li class="menu-element">
+
+              <span data-tooltip="Local">
               <a href="./localizacao.html"><div class="localizacao"></div></a>
+              </span>
+
             </li>
             <li class="menu-element">
+              <span data-tooltip="Sobre">
               <a href="./sobre.html"><div class="sobre"></div></a>
+            </span>
+
             </li>
           </ul>
-        </nav>
+        </div>
       </aside>
 
       <div class="container with-sidebar">
-        <main>
-          <h1 class="animate-up titulo">Olá <strong id="usuario"></strong>, seja bem vindo a Pixels Sword.</h1>
+        <main class="animate-up">
+          <h1 class="animate-up titulo">
+            Olá! Seja bem vindo, nós somos a Pixels Sword.
+          </h1>
           <p class="animate-up text">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum a ad
-            adipisci, quibusdam quasi, commodi quo nulla blanditiis qui, libero
-            neque architecto eaque? Saepe et dicta tenetur ipsam voluptate modi?
+            Nosso intuito é guiar e por em prática as idealizações dos nossos
+            clientes. a fim de construir marcas fortes e fazer com que seu
+            negócio creça ainda mais! Conheça nossos serviços e se familiarize
+            com nosso trabalho.
           </p>
           <div class="box-container">
             <div class="box">
@@ -98,6 +120,9 @@
               <a href="#"></a>
             </div>
           </div>
+          <h2 class="animate-up">
+            <strong>Você planeja, a gente faz!</strong><br />
+          </h2>
         </main>
       </div>
     </div>

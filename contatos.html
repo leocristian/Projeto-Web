@@ -1,103 +1,125 @@
 <!DOCTYPE html>
 <html lang="pt_BR">
-  <head>
-    <meta charset="utf-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <title>Pixels Sword</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
 
-    <link rel="icon" href="./public/images/PS-spray-BRANCO.png" />
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <title>Pixels Sword</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
 
-    <link rel="stylesheet" href="./public/css/main.css" />
-    <link rel="stylesheet" href="./public/css/animations.css" />
-    <link rel="stylesheet" href="./public/css/page-landing.css" />
-    <link rel="stylesheet" href="./public/css/side-bar.css" />
-    <link rel="stylesheet" href="./public/css/box-container.css">
+  <link rel="icon" href="./public/images/PS-spray-BRANCO.png" />
 
-    <link rel="preconnect" href="https://fonts.gstatic.com" />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@400;800&display=swap"
-      rel="stylesheet"
-    />
+  <link rel="stylesheet" href="./public/css/main.css" />
+  <link rel="stylesheet" href="./public/css/animations.css" />
+  <link rel="stylesheet" href="./public/css/page-landing.css" />
+  <link rel="stylesheet" href="./public/css/side-bar.css" />
+  <link rel="stylesheet" href="./public/css/box-container.css">
 
-    <script src="https://kit.fontawesome.com/65fbd1df51.js" crossorigin="anonymous"></script>
-  </head>
-  <body>
-    <div class="background-sidebar animate-down"></div>
+  <link rel="preconnect" href="https://fonts.gstatic.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@400;800&display=swap" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet"/>
+  
+  <script src="https://kit.fontawesome.com/65fbd1df51.js" crossorigin="anonymous"></script>
+</head>
 
+<body>
+  <div id="page-landing">
+    <div class="background-sidebar animate-down animate-right"></div>
     <aside>
-      <header>
+      <div class="navbar">
+        
+        <div class="hamburguer"><span class="material-icons">menu</span></div>
         <a href="./index.html">
-            <img
+          <img
+            class="logo"
+            src="./public/images/PIXELS SWORD-logo.png"
+            alt="Logo Pixels"
+          /></a>
+          <a href="./index.html">
+          <img
             class="mini-logo"
             src="./public/images/PIXELS SWORD-minilogo.svg"
-            alt="Logo Pixels"
-            />
-        </a>
-      </header>
-      <nav class="menu">
-        <ul>
+            alt="Mini Logo Pixels"
+          /></a>
+        <ul class="menu">
           <li class="menu-element">
-            <a href="./portifolio.html"><div class="portifolio"></div></a>
+
+              <span data-tooltip="Portifólio">
+              <a href="./portifolio.html"><div class="portifolio"></div></a>
+              </span>
+            
           </li>
           <li class="menu-element">
+
+            <span data-tooltip="Contato">
             <a href="./contatos.html"><div class="contato"></div></a>
+            </span>
           </li>
           <li class="menu-element">
+
+            <span data-tooltip="Local">
             <a href="./localizacao.html"><div class="localizacao"></div></a>
+            </span>
+
           </li>
           <li class="menu-element">
+            <span data-tooltip="Sobre">
             <a href="./sobre.html"><div class="sobre"></div></a>
+          </span>
+          
           </li>
         </ul>
-      </nav>
+      </div>
     </aside>
-    <div id="page-landing">
-      <div class="container with-sidebar">
-        <main>
-          <h1 class="animate-up titulo">Contato</h1>
-            <p class="animate-up text" style="font-size: 25px;">
-                Abaixo estão algumas formas de entrar em contato com a Pixel Sword
-            </p>
-          <div class="box-contato">
-            <div class="box">
-              <div class="boxContent">
-                
-                <h1 class="box-title">
-                    <i class="fab fa-whatsapp ico-space"></i>
-                    Ligue ou envie uma mensagem.
-                </h1>
-                <p class="tel">(89) 99450-8359</p>
-                <p class="tel">(89) 99400-9669</p>
-              </div>
-            </div>
-            <div class="box">
-              <div class="boxContent">
-                <h1 class="box-title">
-                    <i class="fas fa-user-friends ico-space"></i>
-                    Siga nossas redes sociais.
-                </h1>
-                <p class="tel">
-                    <i class="fab fa-instagram" style="font-size: 25px;"></i>
-                    pixelssword</p>
-                <p class="tel">
-                    <i class="fab fa-behance" style="font-size: 25px;"></i>
-                    Pixels Sword</p>
-              </div>
-            </div>
-            <div class="box-form">
-                <h2>Ou envie um comentário.</h2>
-                <form action="">
-                    <input type="text" name="" id="" placeholder="Digite seu nome">
-                    <input type="text" name="" id="" placeholder="Digite seu Email">
-                    <textarea name="" id="" cols="30" rows="10" placeholder="Deixe aqui um comentário"></textarea>
+    <div class="container with-sidebar">
+      <main class="animate-up">
+        <h1 class="animate-up titulo">Contato</h1>
+        <p class="animate-up text" style="font-size: 25px;">
+          Deseja contratar nossos serviços!? Entre em contato imediatamente para que possamos atendê-lo.<br />
+          Logo abaixo estão todas as maneiras que você pode falar conosco:
+        </p>
+        <div class="box-contato">
+          <div class="box">
+            <div class="boxContent">
 
-                    <input type="submit">
-                </form>
+              <h1 class="box-title">
+                <i class="fab fa-whatsapp ico-space"></i>
+                Ligue ou envie uma mensagem.
+              </h1>
+              <p class="tel">(89) 99450-8359</p>
+              <p class="tel">(89) 99400-9669</p>
             </div>
           </div>
-        </main>
-      </div>
+          <div class="box">
+            <div class="boxContent">
+              <h1 class="box-title">
+                <i class="fas fa-user-friends ico-space"></i>
+                Siga nossas redes sociais.
+              </h1>
+              <p class="tel">
+                <i class="fab fa-instagram" style="font-size: 25px;"></i>
+                pixelssword
+              </p>
+              <p class="tel">
+                <i class="fab fa-behance" style="font-size: 25px;"></i>
+                Pixels Sword
+              </p>
+            </div>
+          </div>
+          <div class="box-form">
+            <h2>Envie um e-mail.</h2>
+            <form action="">
+              <input type="text" name="" id="" placeholder="Digite seu nome">
+              <input type="text" name="" id="" placeholder="Digite seu Email">
+              <textarea name="" id="" cols="30" rows="10" placeholder="Deixe aqui um comentário"></textarea>
+
+              <input type="submit">
+            </form>
+          </div>
+        </div>
+      </main>
     </div>
-  </body>
+  </div>
+</body>
+
 </html>

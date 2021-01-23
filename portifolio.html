@@ -18,40 +18,61 @@
       href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@400;800&display=swap"
       rel="stylesheet"
     />
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet"/>
+
   </head>
   <body>
-    <div class="background-sidebar animate-down"></div>
-
-    <aside>
-      <header>
-        <a href="./index.html">
-            <img
-            class="mini-logo"
-            src="./public/images/PIXELS SWORD-minilogo.svg"
-            alt="Logo Pixels"
-            />
-        </a>
-      </header>
-      <nav class="menu">
-        <ul>
-          <li class="menu-element">
-            <a href="./portifolio.html"><div class="portifolio"></div></a>
-          </li>
-          <li class="menu-element">
-            <a href="./contatos.html"><div class="contato"></div></a>
-          </li>
-          <li class="menu-element">
-            <a href="./localizacao.html"><div class="localizacao"></div></a>
-          </li>
-          <li class="menu-element">
-            <a href="./sobre.html"><div class="sobre"></div></a>
-          </li>
-        </ul>
-      </nav>
-    </aside>
     <div id="page-landing">
+      <div class="background-sidebar animate-down animate-right"></div>
+
+      <aside>
+        <div class="navbar">
+          
+          <div class="hamburguer"><span class="material-icons">menu</span></div>
+          <a href="./index.html">
+            <img
+              class="logo"
+              src="./public/images/PIXELS SWORD-logo.png"
+              alt="Logo Pixels"
+            /></a>
+            <a href="./index.html">
+            <img
+              class="mini-logo"
+              src="./public/images/PIXELS SWORD-minilogo.svg"
+              alt="Mini Logo Pixels"
+            /></a>
+          <ul class="menu">
+            <li class="menu-element">
+
+                <span data-tooltip="Portifólio">
+                <a href="./portifolio.html"><div class="portifolio"></div></a>
+                </span>
+              
+            </li>
+            <li class="menu-element">
+
+              <span data-tooltip="Contato">
+              <a href="./contatos.html"><div class="contato"></div></a>
+              </span>
+            </li>
+            <li class="menu-element">
+
+              <span data-tooltip="Local">
+              <a href="./localizacao.html"><div class="localizacao"></div></a>
+              </span>
+
+            </li>
+            <li class="menu-element">
+              <span data-tooltip="Sobre">
+              <a href="./sobre.html"><div class="sobre"></div></a>
+            </span>
+            
+            </li>
+          </ul>
+        </div>
+      </aside>
       <div class="container with-sidebar">
-        <main>
+        <main class="animate-up">
           <h1 class="animate-up titulo">Nossos trabalhos.</h1>
           <p class="animate-up text">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum a ad

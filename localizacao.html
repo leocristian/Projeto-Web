@@ -18,49 +18,77 @@
       href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@400;800&display=swap"
       rel="stylesheet"
     />
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet"/>
 
     <link rel="stylesheet" type="text/css" href="./public/css/map.css" />
     <script src="./map.js"></script>
   </head>
   <body>
-    <div class="background-sidebar animate-down"></div>
-
-    <aside>
-      <header>
-        <a href="./index.html">
-            <img
-            class="mini-logo"
-            src="./public/images/PIXELS SWORD-minilogo.svg"
-            alt="Logo Pixels"
-            />
-        </a>
-      </header>
-      <nav class="menu">
-        <ul>
-          <li class="menu-element">
-            <a href="./portifolio.html"><div class="portifolio"></div></a>
-          </li>
-          <li class="menu-element">
-            <a href="./contatos.html"><div class="contato"></div></a>
-          </li>
-          <li class="menu-element">
-            <a href="./localizacao.html"><div class="localizacao"></div></a>
-          </li>
-          <li class="menu-element">
-            <a href="./sobre.html"><div class="sobre"></div></a>
-          </li>
-        </ul>
-      </nav>
-    </aside>
     <div id="page-landing">
+      <div class="background-sidebar animate-down animate-right"></div>
+
+      <aside>
+        <div class="navbar">
+          
+          <div class="hamburguer"><span class="material-icons">menu</span></div>
+          <a href="./index.html">
+            <img
+              class="logo"
+              src="./public/images/PIXELS SWORD-logo.png"
+              alt="Logo Pixels"
+            /></a>
+            <a href="./index.html">
+            <img
+              class="mini-logo"
+              src="./public/images/PIXELS SWORD-minilogo.svg"
+              alt="Mini Logo Pixels"
+            /></a>
+          <ul class="menu">
+            <li class="menu-element">
+
+                <span data-tooltip="Portifólio">
+                <a href="./portifolio.html"><div class="portifolio"></div></a>
+                </span>
+              
+            </li>
+            <li class="menu-element">
+
+              <span data-tooltip="Contato">
+              <a href="./contatos.html"><div class="contato"></div></a>
+              </span>
+            </li>
+            <li class="menu-element">
+
+              <span data-tooltip="Local">
+              <a href="./localizacao.html"><div class="localizacao"></div></a>
+              </span>
+
+            </li>
+            <li class="menu-element">
+              <span data-tooltip="Sobre">
+              <a href="./sobre.html"><div class="sobre"></div></a>
+            </span>
+            
+            </li>
+          </ul>
+        </div>
+      </aside>
       <div class="container with-sidebar">
-        <main>
-          <h1 class="animate-up titulo">Localização.</h1>
+        <main class="animate-up">
+          <h1 class="animate-up titulo">Localização</h1>
+          <p class="animate-up text">
+            Atualmente estamos situados na cidade de Picos no Piauí.<br />
+            Deseja nos encontrar? Veja o mapa e trace uma rota!
+          </p>
           <!--The div element for the map -->
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3959.4215588185784!2d-41.49142568517595!3d-7.077026794888904!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x79c11a9cb386921%3A0xa1b5d1d3ae190b21!2sPiau%C3%AD%20Shopping%20Center!5e0!3m2!1sen!2sbr!4v1611355112976!5m2!1sen!2sbr"></iframe>
-            <a href="https://www.google.com/maps/dir//Piau%C3%AD+Shopping+Center+-+BR-316+com+a+Av.+Severo+Eul%C3%A1lio,+Picos-PI.+-+Baixio+de+Dr+Moura,+Picos+-+PI,+64600-000/@-7.0770255,-41.5242566,13z/data=!4m8!4m7!1m0!1m5!1m1!1s0x79c11a9cb386921:0xa1b5d1d3ae190b21!2m2!1d-41.489237!2d-7.0770268">
-              <button>Ver rotas no google maps</button>
-            </a>
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3959.4215588185784!2d-41.49142568517595!3d-7.077026794888904!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x79c11a9cb386921%3A0xa1b5d1d3ae190b21!2sPiau%C3%AD%20Shopping%20Center!5e0!3m2!1sen!2sbr!4v1611355112976!5m2!1sen!2sbr"
+          ></iframe>
+          <a
+            href="https://www.google.com/maps/dir//Piau%C3%AD+Shopping+Center+-+BR-316+com+a+Av.+Severo+Eul%C3%A1lio,+Picos-PI.+-+Baixio+de+Dr+Moura,+Picos+-+PI,+64600-000/@-7.0770255,-41.5242566,13z/data=!4m8!4m7!1m0!1m5!1m1!1s0x79c11a9cb386921:0xa1b5d1d3ae190b21!2m2!1d-41.489237!2d-7.0770268"
+          >
+            <button>Ver rotas no google maps</button>
+          </a>
         </main>
       </div>
     </div>
