@@ -96,22 +96,26 @@
                 <i class="fas fa-user-friends ico-space"></i>
                 Siga nossas redes sociais.
               </h1>
-              <p class="tel">
-                <i class="fab fa-instagram" style="font-size: 25px;"></i>
-                pixelssword
-              </p>
-              <p class="tel">
-                <i class="fab fa-behance" style="font-size: 25px;"></i>
-                Pixels Sword
-              </p>
+              <a href="https://www.instagram.com/pixelssword/?hl=en">
+                <p class="tel">
+                  <i class="fab fa-instagram" style="font-size: 25px;"></i>
+                  pixelssword
+                </p>
+              </a>
+              <a href="https://www.behance.net/pixelssword">
+                <p class="tel">
+                  <i class="fab fa-behance" style="font-size: 25px;"></i>
+                  Pixels Sword
+                </p>
+              </a>
             </div>
           </div>
           <div class="box-form">
             <h2>Envie um e-mail.</h2>
-            <form action="">
-              <input type="text" name="" id="" placeholder="Digite seu nome">
-              <input type="text" name="" id="" placeholder="Digite seu Email">
-              <textarea name="" id="" cols="30" rows="10" placeholder="Deixe aqui um comentário"></textarea>
+            <form action="#" method="POST" onsubmit="return validaForm(this);">
+              <input type="text" name="nome" id="nome" placeholder="Digite seu nome">
+              <input type="text" name="email" id="email" placeholder="Digite seu Email">
+              <textarea name="comment" id="" cols="30" rows="10" placeholder="Deixe aqui um comentário"></textarea>
 
               <input type="submit">
             </form>
@@ -120,6 +124,7 @@
       </main>
     </div>
   </div>
+  <script src="./index.js"></script>
 </body>
 
 </html>
