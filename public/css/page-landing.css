@@ -18,7 +18,7 @@
   flex: 1;
   border-radius: 3rem;
 }
-
+/*textos*/
 main .titulo {
   animation-delay: 200ms;
   padding: 4rem;
@@ -38,6 +38,13 @@ main .rodape{
   padding: 2rem;
   margin-top: 10rem;
   font-size: clamp(2rem, 4.7vw, 3rem);
+}
+
+main .text-info {
+  animation-delay: 340ms;
+  padding: 2rem;
+  font-size: clamp(2rem, 4.7vw, 2rem);
+  text-align: left;
 }
 
 /*Desktop Version*/
