@@ -13,7 +13,6 @@ function getCookie() {
 }
 
 function validaForm(formObj){
-
     if (formObj.nome.value == "" || formObj.email.value == "" || formObj.comment.value == "") {
         alert("Preencha todos os campos!")
         return false
