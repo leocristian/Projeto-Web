@@ -12,7 +12,7 @@
     <link rel="stylesheet" href="./public/css/animations.css" />
     <link rel="stylesheet" href="./public/css/page-landing.css" />
     <link rel="stylesheet" href="./public/css/side-bar.css" />
-    <link rel="stylesheet" href="./public/css/banner.css">
+    <link rel="stylesheet" href="./public/css/page-portfolio.css">
 
     <link rel="preconnect" href="https://fonts.gstatic.com" />
     <link
@@ -58,7 +58,7 @@
             </li>
             <li class="menu-element">
 
-              <span data-tooltip="Local">
+              <span data-tooltip="Localização">
               <a href="./localizacao.html"><div class="localizacao"></div></a>
               </span>
 
@@ -74,21 +74,59 @@
       </aside>
       <div class="container with-sidebar">
         <main class="animate-up">
-          <h1 class="animate-up titulo">Nossos trabalhos</h1>
-          <p class="animate-up text">
-            Abaixo estão alguns de nossos trabalhos
-          </p>
+
+          <div class="slide-carrossel">
+
+            <div class="slide-inner">
+              <img src="./public/images/slide/imperio.png" alt="imagem-1">
+              
+              <div class="images">
+                <button onclick="selectImage(event)" class="active" type="button">
+                  <img src="./public/images/slide/imperio.png" alt="imagem-1">
+                </button>
+
+                <button onclick="selectImage(event)" type="button">
+                  <img src="./public/images/slide/ART2.jpg" alt="imagem-2">
+                </button>
+
+                <button onclick="selectImage(event)" type="button">
+                  <img src="./public/images/slide/Camiseta-ESPORTE-modelo2.jpg" alt="imagem-3">
+                </button>
+
+                <button onclick="selectImage(event)" type="button">
+                  <img src="./public/images/slide/Logo JPG- VII Semana da matematica.jpg" alt="imagem-4">
+                </button>
+
+                <button onclick="selectImage(event)" type="button">
+                  <img src="./public/images/slide/1_01.jpg" alt="imagem-5">
+                </button>
+
+                <button onclick="selectImage(event)" type="button">
+                  <img src="./public/images/slide/Strauss-Logo.jpg" alt="imagem-6">
+                </button>
+              </div>
+              
+            </div>
+            
+            <!-- <div class="info-portfolio">
+              <h1 class="animate-up titulo">Nossos trabalhos</h1>
+              <p class="animate-up text">
+                Abaixo estão alguns de nossos trabalhos
+              </p>
+            </div> -->
+          </div>
+
         </main>
-        <div id="slider">
+        <!-- <div id="slider">
           <img class="selected" src="./public/images/slide/1_01.jpg">
           <img class="" src="./public/images/slide/ART2.jpg">
           <img class="" src="./public/images/slide/Camiseta-ESPORTE-modelo2.jpg">
           <img class="" src="./public/images/slide/imperio.png">
           <img class="" src="./public/images/slide/Logo JPG- VII Semana da matematica.jpg">
           <img class="" src="./public/images/slide/Strauss-Logo.jpg">
-        </div>
+        </div> -->
       </div>
     </div>
-    <script src="portifolio.js"></script>
+    <script src="./public/scripts/portifolio.js"></script>
   </body>
 </html>
