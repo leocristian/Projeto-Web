@@ -1,0 +1,10 @@
+#page-landing {
+    background: url(../images/Fundo-local.jpg) no-repeat center;
+    background-attachment: fixed;
+    background-size: cover;
+  
+    text-align: center;
+    min-height: 100vh;
+  
+    display: flex;
+  }

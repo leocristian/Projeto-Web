@@ -1,3 +1,14 @@
+#page-landing {
+    background: url(../images/Fundo-port.jpg) no-repeat center;
+    background-attachment: fixed;
+    background-size: cover;
+  
+    text-align: center;
+    min-height: 100vh;
+  
+    display: flex;
+  }
+
 .slide-inner{
     padding-top: 1.8rem;
 }
@@ -65,7 +76,7 @@
     position: absolute;
     margin: -6rem 10rem;
     text-decoration: overline;
-    font-size: clamp(1.8rem, 2vw, 2.5rem);
+    font-size: clamp(1rem, 2vw, 3rem);
     padding-right: 16rem;
     color: rgb(255, 255, 255);
      text-shadow: 
