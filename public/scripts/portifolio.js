@@ -2,7 +2,7 @@ function selectImage(event){
     const button = event.currentTarget
     console.log(button.children)
     //remove todos os active
-    const buttons = document.querySelectorAll(".images button")
+    const buttons = document.querySelectorAll(".images a")
     
 
     buttons.forEach(removeActionClass)

@@ -30,7 +30,7 @@
     margin: 16px 40px 0;
 }
 
-.images button{
+.images a{
     border: 0;
     background: none;
 
@@ -49,11 +49,11 @@
     transition: 0.4s;
 }
 
-.images button:hover, .images button.active{
+.images a:hover, .images a.active{
     opacity: 1;
 }
 
-.images button img{
+.images a img{
     width: 100%;
     height: 8.8rem;
     object-fit: cover;

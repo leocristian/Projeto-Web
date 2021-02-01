@@ -135,38 +135,12 @@ aside {
   }
   /*menu*/
 
-  .portifolio {
-    background: url(../images/icones/Vector.png) no-repeat center;
+  .icon-menu {
+    /*background: url(../images/icones/Vector.png) no-repeat center;
     width: 100%;
     padding: 2rem;
-    padding-bottom: 8rem;
-    padding-top: 6rem;
-  }
-
-  .contato {
-    background: url(../images/icones/phonefone.png) no-repeat center;
-    width: 100%;
-    padding: 2rem;
-    padding-bottom: 8rem;
-    padding-top: 6rem;
-  }
-
-  .localizacao {
-    background: url(../images/icones/place.png) no-repeat center;
-    width: 100%;
-    padding: 2rem;
-    padding-bottom: 8rem;
-    list-style-type: none;
-    padding-top: 6rem;
-  }
-
-  .sobre {
-    background: url(../images/icones/help_outline.png) no-repeat center;
-    width: 100%;
-    padding: 2rem;
-    padding-bottom: 8rem;
-    list-style-type: none;
-    padding-top: 6rem;
+    padding-bottom: 8rem;*/
+    padding-top: 7rem;
   }
 
   .menu-element {
@@ -189,10 +163,10 @@ aside {
   [data-tooltip]:after {
     display: none;
     position: absolute;
-    top: 55px;
+    top: -10px;
     padding: 5px;
     border-radius: 4px;
-    left: calc(100% + 60px);
+    left: calc(100% + 50px);
     content: attr(data-tooltip);
     white-space: nowrap;
     background-color: #4a4a4a;
